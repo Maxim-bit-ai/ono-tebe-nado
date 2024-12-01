@@ -31,6 +31,7 @@ body {
    list-style-type: circle;
    text-decoration: underline;
    padding: auto;
+   text-underline-offset: 2pt;
 }
 
 .header__link_active {
@@ -153,7 +154,6 @@ body {
    display: block;
    height: 563px;
    width: 334px;
-
 }
 
 .lots-list-1 {
@@ -188,11 +188,13 @@ body {
    background-position: center;
    background-image: url(../images/card-lot-01.jpg);
 }
+
 .card_type_book {
    background-size: cover;
    background-position: center;
    background-image: url(../images/card-lot-02.jpg);
 }
+
 .card_type_picture {
    background-size: cover;
    background-position: center;
@@ -286,6 +288,7 @@ body {
    font-weight: 350;
    padding-left: 8pt;
 }
+
 .text-2 {
    grid-area: text-2;
    padding-left: 8pt;
@@ -312,10 +315,6 @@ body {
    justify-items: center;
    align-items: start;
    grid-template-rows: 0px 20px 20px;
-}
-
-.header__links-list-item {
-   text-underline-offset: 2pt;
 }
 
 .footer__social-list {
