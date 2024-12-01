@@ -20,7 +20,7 @@ body {
    display: flex;
    justify-content: space-evenly;
    margin-left: 4pt;
-   margin-right: 8pt; 
+   margin-right: 8pt;
 }
 
 .header__links-list-item_no-bullet {
@@ -56,7 +56,7 @@ body {
    background-size: cover;
    text-transform: uppercase;
    background-position: top;
-   color: white;   
+   color: white;
    }
 
 .overlay {
@@ -102,7 +102,7 @@ body {
    grid-template-columns: 800px 200px;
    grid-template-rows: 250px;
    justify-content: center;
-   align-items: center;  
+   align-items: center;
    word-spacing: 20px;
 }
 
